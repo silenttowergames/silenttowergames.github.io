@@ -1,0 +1,21 @@
+.grid {
+	@extend %list-reset;
+}
+
+@media (min-width: 992px) {
+	.grid {
+		> * {
+			flex: 1;
+		}
+		
+		display: flex;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.grid {
+		> *:not(:last-child) {
+			margin-bottom: 1em;
+		}
+	}
+}
