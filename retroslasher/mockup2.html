@@ -1,0 +1,98 @@
+<style type="text/css">
+@font-face {
+	font-family: 'PressStart2P';
+	src: url('PressStart2P.ttf');
+}
+
+@font-face {
+	font-family: 'Bloodyslime';
+	src: url('Bloodyslime.ttf');
+}
+
+body {
+	background-color: #333;
+}
+
+section {
+	background-color: #000;
+	border: 8px solid #FFF;
+	height: calc(64px * 4);
+	position: fixed;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	width: calc(calc(208px * 4) / 5 * 7);
+	overflow: hidden;
+}
+
+img {
+	image-rendering: crisp-edges;
+}
+
+#logo {
+	display: none;
+	margin: auto;
+	position: relative;
+	top: 24px;
+}
+
+#backdrop {
+	position: absolute;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#protag,
+#killer
+{
+	position: absolute;
+	width: calc(calc(7px * 4) / 5 * 7);
+	height: calc(16px * 4);
+}
+
+#protag {
+	left: 53%;
+	top: 110px;
+}
+
+#killer {
+	position: absolute;
+	top: 100px;
+	right: 53%;
+}
+
+#knife {
+	position: absolute;
+	width: calc(calc(8px * 4) / 5 * 7);
+	height: calc(3px * 4);
+	right: calc(50% + 8px);
+	top: calc(50% + 14px);
+	transform:
+		rotate(-15deg)
+		scale(0.8)
+	;
+}
+
+#lantern {
+	position: absolute;
+	width: calc(calc(6px * 4) / 5 * 7);
+	height: calc(8px * 4);
+	top: calc(50% + 12px);
+	left: calc(53% + 24px);
+	transform:
+		rotate(-10deg)
+		scale(0.8)
+	;
+}
+</style>
+<section>
+	<img src="backdrop_lengthy.png" alt="" id="backdrop">
+	<img src="logo-trimmed.png" alt="" id="logo">
+	<img src="protag.png" alt="" id="protag">
+	<img src="ks.png" alt="" id="killer">
+	<img src="knife.png" alt="" id="knife">
+	<img src="lantern.png" alt="" id="lantern">
+</section>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Platformer RPG</title>
+<style type="text/css">
+@font-face {
+	font-family:'PressStart2P';
+	src:url('PressStart2P.ttf');
+}
+
+body {
+	background-color:#333;
+	margin:0;
+}
+
+canvas {
+	background-color:#F0F;
+	position:fixed;
+}
+
+img {
+	display:none;
+}
+</style>
+<script type="text/javascript">
+var scripts=[
+	'actions',
+	'camera',
+	'canvas',
+	'effects',
+	'fights',
+	'howler.min',
+	'input',
+	'items',
+	'maps',
+	'objects',
+	'settings',
+	'sounds',
+	'sprites',
+	'turnmenu',
+	'xp'
+];
+for(let i in scripts){
+	let scr=document.createElement('script');
+	scr.type='text/javascript';
+	scr.src=scripts[i] + '.js';
+	document.head.appendChild(scr);
+}
+</script>
+</head>
+
+<body>
+<img src="sprites.png" id="sprites">
+<img src="logo.png" id="logo">
+<canvas id="c"></canvas>
+</body>
+
+</html>
