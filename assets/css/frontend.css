@@ -260,8 +260,9 @@ a:active {
 
 .list-photoset {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
-  max-width: 640px; }
+  max-width: 1000px; }
   .list-photoset > li {
     width: 50%; }
 
