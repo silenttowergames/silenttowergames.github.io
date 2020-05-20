@@ -409,4 +409,11 @@ h3 {
 .large {
   font-size: 1.25em; }
 
+.news-post h1 {
+  font-size: 22px; }
+
+.news-post h2 {
+  font-size: 20px;
+  text-shadow: unset; }
+
 /*# sourceMappingURL=frontend.css.map */
