@@ -52,7 +52,7 @@
 .btn-lg, .card, .list-pagination li {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 
-#footer .footer-list, .grid, #landing-socmed, .list-games > li .game-meta, .list-games, .list-news, .list-news-tags, .list-pagination, #nav ul {
+#footer .footer-list, .grid, #landing-socmed, .list-games > li .game-meta, .list-games, .list-news, .list-news-tags, .list-pagination, .list-photoset, #nav ul {
   list-style: none;
   margin: 0;
   padding: 0; }
@@ -138,7 +138,8 @@ header {
       background-color: rgba(255, 255, 255, 0.75);
       color: #000;
       display: block;
-      font-weight: normal; }
+      font-weight: normal;
+      padding: 0.25em; }
 
 @media (max-width: 575.98px) {
   header h1 {
@@ -162,6 +163,10 @@ a:focus,
 a:active {
   color: #000;
   text-decoration: none; }
+
+#discord-server-big-link {
+  display: block;
+  max-width: 250px; }
 
 #landing-socmed {
   display: flex;
@@ -252,6 +257,13 @@ a:active {
   .list-pagination li.current a {
     background-color: #CCC;
     color: #000; }
+
+.list-photoset {
+  display: flex;
+  margin: auto;
+  max-width: 640px; }
+  .list-photoset > li {
+    width: 50%; }
 
 @media (min-width: 992px) {
   .list-games > li,

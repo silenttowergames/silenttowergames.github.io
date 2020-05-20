@@ -145,6 +145,17 @@
 	justify-content: center;
 }
 
+.list-photoset {
+	> li {
+		width: 50%;
+	}
+	
+	@extend %list-reset;
+	display: flex;
+	margin: auto;
+	max-width: 640px;
+}
+
 @media (min-width: 992px) {
 	.list-games,
 	.list-news
