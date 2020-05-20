@@ -52,7 +52,7 @@
 .btn-lg, .card, .list-pagination li {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 
-#footer .footer-list, .grid, #landing-socmed, .list-games > li .game-meta, .list-games, .list-news, .list-pagination, #nav ul {
+#footer .footer-list, .grid, #landing-socmed, .list-games > li .game-meta, .list-games, .list-news, .list-news-tags, .list-pagination, #nav ul {
   list-style: none;
   margin: 0;
   padding: 0; }
@@ -221,6 +221,19 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   width: 80%; }
+
+.list-news-tags {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin-bottom: 0.5em; }
+  .list-news-tags li {
+    background-color: #F5F5F5;
+    border-radius: 1em;
+    flex: 0;
+    margin: 0.25em 0.5em 0.25em 0;
+    padding: 0.5em 1em;
+    white-space: nowrap; }
 
 .list-pagination {
   display: flex;
