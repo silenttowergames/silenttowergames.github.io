@@ -1,5 +1,4 @@
 node_modules/
-scss/
 Gruntfile.js
 package.json
 package-lock.json

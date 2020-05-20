@@ -1,0 +1,13 @@
+a {
+	color: $color-red;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active
+{
+	color: #000;
+	text-decoration: none;
+}

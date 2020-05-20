@@ -1,0 +1,41 @@
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 32px;
+	margin-bottom: 0.5em;
+	text-shadow: 4px 4px 0 $color-red;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+#interior-title {
+	margin-bottom: 1em;
+	text-align: center;
+	text-shadow: 5px 5px 0 $color-red;
+	text-transform: uppercase;
+}
+
+.large {
+	font-size: 1.25em;
+}
+
+.news-post {
+	h1 {
+		font-size: 22px;
+	}
+	
+	h2 {
+		font-size: 20px;
+		text-shadow: unset;
+	}
+}
+
+// Hahaha this is barely typography
+hr {
+	border-width: 0;
+	border-top: 0.5px solid #DDD;
+}
