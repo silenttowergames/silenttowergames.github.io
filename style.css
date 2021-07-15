@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 .btn {
   background-color: #9C2020;
   color: #FFF;
@@ -85,7 +84,7 @@
   src: url("../fonts/NanumBold.woff");
 }
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Nanum';
 }
 
 h1,
@@ -549,4 +548,4 @@ hr {
   border-top: 0.5px solid #DDD;
 }
 
-/*# sourceMappingURL=frontend.css.map */
+/*# sourceMappingURL=style.css.map */
